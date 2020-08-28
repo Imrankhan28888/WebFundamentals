@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery / Javascript Lecture</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        // console.log("Hello Everyone, Document is ready!")
+        // var btn = document.getElementById("btn");  
+        // btn.addEventListener("click", function () {
+        // var pTag = document.getElementById("first-p");
+        // pTag.style.backgroundColor = "green";
+        
+        //We will using jQuery below to convert above Javascript code (last four above lines)
+           $("#btn").click(function() {
+                var pTag = $("#first-p");
+                pTag.css("backgroundColor", "green");
+              }
+             )
+            
+
+
+           }
+        )  
+        
+        
+    </script>
+
+</head>
+<body>
+
+    <p id="first-p">Hello everyone. Hello again!</p>
+    <button id="btn">Click Me!</button>
+
+    <!-- <script>
+    var btn = document.getElementById("btn");
+    btn.addEventListener("click", function () {
+        alert("hello");
+        var pTag = document.getElementById("first-p");
+        pTag.style.backgroundColor = "green";
+      }
+    )
+
+        console.log(document);
+        console.dir(document);
+        console.log(document.URL);
+        var pTag = document.getElementById("first-p")
+        console.log(pTag);
+        console.dir(pTag);
+        pTag.style.backgroundColor = "green"
+    </script> -->
+    
+</body>
+</html>

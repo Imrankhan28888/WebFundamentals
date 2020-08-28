@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery / Javascript Lecture</title>
+    <link rel="stylesheet" type="text/css" href="DisappearingNinja.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+         console.log("Hello Everyone, Document is ready!")
+             
+
+            //add 8 images and one button to div - container class
+            var HTMLstring = "";
+            for (var i = 0; i < 8; i++) {
+                HTMLstring = HTMLstring + '<img src="bluey.gif" alt="image">' 
+            }
+            HTMLstring = HTMLstring + '<button>Restore</button>'
+            
+            $('.container').append(HTMLstring);
+
+                      
+
+            //hide 
+            $('img').click(function() {
+            $(this).hide("slow");
+            });
+
+            //show
+            $('button').click(function() {
+            $('img').show();    
+            })
+          }
+        )  
+    </script>
+</head>
+
+
+
+
+<body>
+<div class="container">
+
+</div>
+
+
+
+</body>
+</html>

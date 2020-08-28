@@ -1,0 +1,161 @@
+/*CSS reset settings here*/
+  *{
+    margin: 0px;
+    padding: 0px;
+   }
+
+   .container {
+    width: 920px;
+    height:975px;
+    /* outline: 10px solid red; */
+    background-color: #4e3a42;
+    margin: 0px auto;
+    
+   }
+
+  
+   .header {
+    height: 30px;
+    background-color: #f7f7f7;
+    color: black;
+    padding: 20px;
+    
+   }
+
+   .header h2 {
+    float: left;
+  }
+
+   .header h3 {
+    float: right;
+   }
+   
+  
+   .row1 {
+    padding: 20px;    
+   }
+
+   .image {
+    display: inline-block;
+   }
+
+
+   .pictureofme{
+    border: 5px solid #c0c0c0;
+   }
+
+   .about{
+     display: inline-block;
+     vertical-align: top;
+     /* padding: 10px; */
+     background-color: #e9e1e9;
+     
+     height: 260px;
+     width: 440px;
+     margin-left: 20px;
+          
+   }
+
+   .about p {
+     margin-bottom: 15px;
+     
+   }
+
+   .about h2 {
+    /* margin-bottom: 10px; */
+    background-color: #8b8996;
+    background-image: linear-gradient(to left,white, gray);
+    display: block;
+    color: white;
+    padding: 10px;
+    
+   }
+
+   .padding {
+     padding:10px;
+     background-image: linear-gradient(to right,white, gray);
+       
+   }
+
+   .row2 {
+    padding: 0px;
+        
+   }
+
+   .lamode{
+    display: inline-block;
+    vertical-align: top;
+    /* padding: 10px; */
+    background-color: #e9e1e9;
+    height: auto;
+    width: 275px;
+    margin-left: 20px;
+      
+  }
+
+  .lamode p {
+    margin-bottom: 30px;
+    text-align: justify ;
+  }
+
+  .lamode h2 {
+   background-color: #8b8996;
+   background-image: linear-gradient(to left,white, gray);
+   display: block;
+   color: white;
+   padding: 10px;
+  }
+
+ .image2 {
+
+  height: 120px;
+  width: 275px;
+
+ }
+
+ .image3 {
+  height: 35px;
+  width: 35px;
+  margin-top: 20px;
+  margin-left: 10px;
+ }
+
+ .btn {
+  color: white;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  background: green;
+  text-align: center;
+  margin-left: 60px;
+  border: black solid;
+}
+
+.btnpadding {
+
+  padding: 20px;
+
+}
+
+.footer {
+  height: 50px;
+  background-color: #f7f7f7;
+  color: black;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  
+ }
+
+ .footer img {
+ height: 15px;
+ margin-top: 20px;
+  
+ }
+
+ .footer a {
+  margin-bottom: 40px;
+     
+ }
+  

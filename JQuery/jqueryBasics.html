@@ -1,0 +1,131 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery demo!</title>
+    <style>
+        div {
+          background: #3d9a44;
+          margin: 3px;
+          width: 80px;
+          height: 40px;
+          float: left;
+        }
+    </style>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">  
+    
+       
+       $(document).ready(function() {
+
+        alert('You are working jQuery!');
+        //debugging
+        console.log('You are working jQuery!!')
+        $('p').hide();
+
+          $('a').click(function() {
+           alert('you have just clicked on anchor element!')
+          });
+
+          //effects methods
+          $('#hide').click(function() {
+           $('p').hide();
+          });
+
+          
+          $('#show').click(function() {
+           $('p').show();
+          });
+
+
+          //manipulation methods
+          $('h3').hover(function() {
+              $('h2').text('go see the space needle!')
+          }, 
+        //   function() {alert('now invoking the second function!')}
+        );
+
+          $('.append').click(function() {
+              $('.result').append('<h4>.append adds HTML! </h4>');
+          });
+
+          //css methods
+          $('button').click(function() {
+              $('button').css('background-color', 'yellow');
+          });
+          
+          //getter function gets the value of something
+          $('button').click(function() {
+              var mytext = $('#show').text();
+              alert(mytext);
+          });
+
+
+          //setter function sets the value of something
+          $('button').click(function() {
+              $('#hide').text("see how setter works!")
+          });
+
+
+          $('button').click(function() {
+              $('h2').toggle();
+              
+          });
+
+         //Using Slidedown
+        $( document.body ).click(function () {
+            if ( $( "div" ).first().is( ":hidden" ) ) {
+                $( "div" ).slideDown( "slow" );
+            } else {
+                $( "div" ).hide();
+            }
+            });
+
+        //Using Slideup
+        $( document.body ).click(function() {
+            if ( $( "div" ).first().is( ":hidden" ) ) {
+                $( "div" ).show( "slow" );
+            } else {
+                $( "div" ).slideUp();
+            }
+            });
+        
+
+        //using slideToggle
+        $( "button" ).click(function() {
+        $( "p" ).slideToggle( "slow" );
+        });
+
+
+        $( "a" ).click(function() {
+        $( "div" ).fadeIn( 3000, function() {
+            $( "span" ).fadeIn( 100 );
+        });
+        return false;
+        });
+
+    });  
+
+        
+
+    </script>   
+</head>
+
+<body>
+
+    
+    <a href="">I am anchor Tag</a>
+    
+    <button id="show">Show Paragraphs P tags</button>
+    <h3> Mountain View, California</h3>
+    <h2>Seattle, Washington</h2>
+    <button class="append">Click to see .append work!</button>
+    <div class="result"></div>
+    Click me!
+    <div></div>
+    <div></div>
+</body>
+</html>

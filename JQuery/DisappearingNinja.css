@@ -1,0 +1,25 @@
+div {
+
+    padding-left: 15%;
+    padding-top: 2%;
+    width: auto;
+    height: auto;
+    
+    
+}
+
+div img {
+    
+    width: 250px;
+    height: 200px;
+    background-color: gray;
+    
+}
+
+button {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+    width: auto;
+    background-color: teal;
+}

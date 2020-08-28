@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+ }
+
+ 
+ #wrapper {
+ width: 1200px;
+ height: auto; 
+ margin: 0px auto;
+ background-color: #1f3037;
+ }
+
+ #topcontent {
+     height: auto;
+    
+ }
+
+
+#header {
+    height: 30px;
+    padding: 20px;
+    color:#fbf9f8;
+}
+
+#header h2 span {
+    color: #b9bcc1;
+}
+
+#header h2 {
+    float: left;
+}
+
+#header img {
+    float: right;
+    border: 2px solid #657479;
+}
+
+#nav{
+    width: auto;
+    color: #859d9f;
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    padding: 10px 25px; 
+    box-shadow: 0px 2px black;
+    background-image: linear-gradient(#394c53, #1f3037 );
+}
+
+#nav li {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: solid #405158;
+}
+
+#banner {
+    background-image: linear-gradient(to left, #263232, #4d6861 );
+    
+}
+
+#bannerimg {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 1200px;
+    box-shadow: 0px 2px black;
+    border-top: 2px solid black;
+     
+}
+
+#bannergap{
+    height: 25px;
+    box-shadow: 0px 2px black; 
+     
+}
+
+
+#leftsidebar{
+    height: auto;
+    width: 290px;
+    display: inline-block
+}
+
+
+#search{
+    color: #889d8f;
+    padding-left: 25px;
+    padding-top: 20px;
+    width: 250px;
+}
+    
+#search input {
+        margin-top: 5px;
+        height: 25px;
+        text-align: center;
+        border: 2px solid silver;
+        box-shadow: 1px 1px 1px 1px black;
+    }
+    
+#search button{
+        margin-left: 5px;
+        padding: 10px 10px;
+        background-image: url( 'search_icon.png'); 
+        background-size: cover; 
+        width: 30px; 
+        height: 30px; 
+}
+
+ 
+
+
+.box{
+    margin-top: 15px;
+    margin-left: 0px;
+    border: 2px solid #3b4c53;
+    height: auto;
+    width: 250px;
+    height: auto;
+    margin-left: 25px;
+    
+ }
+   
+
+.box h2 {
+    background-image: linear-gradient(to left,#3a4d53, #263b40);
+    color: #5a8799;
+    padding: 5px;
+    font-size: medium;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3b4c53;
+ }
+
+.box p {
+    margin-bottom: 15px;
+    padding: 5px;
+    color: #c1d2cf;
+    font-size: medium;
+    
+}
+
+.box a {
+    text-decoration: none;
+    color: #bbc571;
+}
+
+.boximg {
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border: 2px solid #3b4c53;
+             
+}
+
+
+#middlesection{
+    display: inline-block;
+    vertical-align: top;
+    background-color:#273c3f;
+    height: 900px;
+    width: 635px;
+    border-top-left-radius:  25px ;
+    margin-top: 2px;
+    
+}
+
+.middleleft{
+    width: 550px;
+    height: 250px;
+    padding: 15px; 
+    
+    
+}
+
+.middleleft h2 {
+color: #dbebde;
+font-weight: 500;
+padding-left: 25px;
+padding-top: 30px; 
+}
+
+.middleleft p {
+   color: #93beb7;
+   padding-left: 25px;
+   padding-top: 5px; 
+   text-align: justify  ;
+}
+
+.middleleft span{
+    color: #bbb966;
+}
+
+.middleleftbar{
+    margin: 25px;
+    height: 5px;
+    width: 525px;
+    border: 2px solid #3c5d5c;
+
+}
+
+#rightsidebar{
+    height: 900px;
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    background-color:#273c3f;
+    border-top-right-radius:  25px ;
+    margin-top: 2px;
+    position: absolute;
+    
+}
+
+.boxr{
+    margin-top: 80px;
+    margin-left: 10px;
+    border: 2px solid #3b4c53;
+    height: auto;
+    width: 200px;
+       
+    
+ }
+   
+
+.boxrh2 {
+    color: #e0fff0;
+    background-color:#273c3f;
+    padding: 0px;
+    font-size: medium;
+    margin-top: 70px;
+    margin-left: 20px;
+    border: 2px solid #3b4c53;
+    width: 90px;
+    position: absolute;
+ }
+
+
+.boxr p {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 5px;
+    color: #c1d2cf;
+    font-size: medium;
+    
+}
+
+.boxr span {
+    color: #bbc571;
+}
+
+.boxrimg {
+    width: 200px;
+    border: 2px solid white ;
+    margin-top: 60px;
+    margin-left: 10px;
+             
+}
+
+#footer {
+    background-image: linear-gradient(to left, #263232, #4d6861 );
+    height: 25px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+

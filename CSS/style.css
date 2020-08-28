@@ -1,0 +1,65 @@
+/* 1. Below option used for refering specific tags/element in html */
+h2 {
+    color: blue;
+   
+
+}
+
+
+/* 2. Below option is used for refering ID in html */
+#red {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    
+}
+
+
+/* 3. Below option is used for using class in html */
+.purple {
+    color: purple;
+    font-family: "helvetica neue", arial, verdana, sans-serif;
+    
+}
+
+.green {
+    color: green;
+   
+}
+
+#lightblue{
+    background-color: lightblue;
+}
+
+#lightgreen{
+    background-color: lightgreen;
+}
+
+div {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+
+p {
+background-color: lightgrey;
+margin: 10px;
+padding: 20px;
+
+}
+
+a {
+  background-color: yellow;  
+  display: block;
+}
+
+ul {
+    background-color: blue;
+}
+
+ul li {
+background-color: green;
+}
